@@ -12,7 +12,7 @@ const app = express();
 
 // enable CORS
 app.use(cors({
-    origin: 'https://recipesharing1.netlify.app',
+    origin: 'http://localhost:5173','https://recipesharing1.netlify.app',
     credentials: true
 }));
 
